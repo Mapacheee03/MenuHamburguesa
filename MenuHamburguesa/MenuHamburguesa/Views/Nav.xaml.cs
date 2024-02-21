@@ -39,5 +39,10 @@ namespace MenuHamburguesa
             App.MasterDet.IsPresented = false;
             await App.MasterDet.Detail.Navigation.PushAsync(new Almacen());
         }
+        private async void CerrarSesion(object sender, EventArgs e)
+        {
+            App.MasterDet.IsPresented = false;
+            await App.MasterDet.Detail.Navigation.PushAsync(new Login());
+        }
     }
 }
