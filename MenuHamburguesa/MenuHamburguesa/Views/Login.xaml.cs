@@ -17,6 +17,8 @@ namespace MenuHamburguesa.Views
         {
             InitializeComponent();
             BindingContext = new VMLogin(Navigation);
+           
         }
+        
     }
 }
