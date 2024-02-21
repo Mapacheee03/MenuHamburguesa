@@ -1,4 +1,5 @@
-﻿using MenuHamburguesa.Views;
+﻿
+using MenuHamburguesa.Views;
 using MenuHamburguesa.Views.Pantallas;
 using System;
 using System.Collections.Generic;
@@ -34,10 +35,11 @@ namespace MenuHamburguesa
             App.MasterDet.IsPresented = false;
             await App.MasterDet.Detail.Navigation.PushAsync(new Registro());
         }
-        private async void GoAlmacen(object sender, EventArgs e)
+
+        private async void configuracion_Clicked(object sender, EventArgs e)
         {
             App.MasterDet.IsPresented = false;
-            await App.MasterDet.Detail.Navigation.PushAsync(new Almacen());
+            await App.MasterDet.Detail.Navigation.PushAsync(new configuracion());
         }
     }
 }

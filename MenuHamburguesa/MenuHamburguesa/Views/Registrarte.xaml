@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AirePuro.View.Registrarte"          
-             Background="#112B47">
+             Background="#caffbf">
     <ContentPage.Content>
 
         <StackLayout Padding="48,0" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
@@ -11,22 +11,22 @@
             <Label Text="Registrar" FontSize="40" HorizontalOptions="Center" />
 
 
-            <Label Text="USUARIO" FontSize="25" HorizontalOptions="Center"
+            <Label Text="USUARIO:" FontSize="25" HorizontalOptions="Center"
                    Margin="0,20,0,0"/>
             <Entry Placeholder="jerh" Background="white"
                    Margin="10,0,10,0"/>
 
-            <Label Text="CONTRASEÑA" FontSize="25" HorizontalOptions="Center"
+            <Label Text="CONTRASEÑA:" FontSize="25" HorizontalOptions="Center"
                    Margin="10,0,10,0"/>
             <Entry  Placeholder="*******" Background="white" IsPassword="True"
                     Margin="10,0,10,0"/>
 
-            <Label Text="CONFIRMAR" FontSize="25" HorizontalOptions="Center"/>
+            <Label Text="CONFIRMAR:" FontSize="25" HorizontalOptions="Center"/>
             <Entry  Placeholder="*******" Background="white" IsPassword="True"
                    Margin="10,0,10,0"/>
 
 
-            <Label Text="NUMERO" FontSize="25" HorizontalOptions="Center" Margin="10,20,10,10"/>
+            <Label Text="NUMERO:" FontSize="25" HorizontalOptions="Center" Margin="10,20,10,10"/>
             <Entry Placeholder="numero" Background="white"
                    Margin="10,0,10,0" Keyboard="Numeric" />
 

@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MenuHamburguesa.Nav"
              Title="Nav">
-    <Grid>
+    <Grid BackgroundColor="#29af66">
         <Grid.RowDefinitions>
             <RowDefinition Height="60"/>
             <RowDefinition Height="60"/>
@@ -16,11 +16,11 @@
             <ColumnDefinition Width=".5*"/>
         </Grid.ColumnDefinitions>
         
-        <Button x:Name="inicio" Text="Inicio" FontSize="20" Grid.Column="0" Grid.Row="0" Clicked="GoInicio"/>
-        <Button x:Name="monitoreo" Text="Monitoreo" FontSize="20" Grid.Column="0" Grid.Row="1" Clicked="GoMonitoreo"/>
-        <Button x:Name="reigstro" Text="Registro" FontSize="20" Grid.Column="0" Grid.Row="2" Clicked="GoRegistro"/>
-        <Button x:Name="almacen" Text="Almacen" FontSize="20" Grid.Column="0" Grid.Row="3" Clicked="GoAlmacen"/>
-        <Button x:Name="cerrarsesior" Text="Cerrar Sesión" FontSize="20" Grid.Column="0" Grid.Row="4"/>
+        <ImageButton BackgroundColor="Transparent" x:Name="inicio" Source="inicio.png" Grid.Column="0" Grid.Row="0" Clicked="GoInicio"/>
+        <ImageButton BackgroundColor="Transparent" x:Name="monitoreo" Source="monitoreo.png" Grid.Column="0" Grid.Row="1" Clicked="GoMonitoreo"/>
+        <ImageButton BackgroundColor="Transparent" x:Name="reigstro" Source="registro.png" Grid.Column="0" Grid.Row="2" Clicked="GoRegistro"/>
+        <ImageButton BackgroundColor="Transparent" x:Name="configuracion" Source="configuraciones.png" Grid.Column="0" Grid.Row="3" Clicked="configuracion_Clicked"/>
+        <ImageButton BackgroundColor="Transparent" x:Name="cerrarsesior" Source="cerrarsesion.png" Grid.Column="0" Grid.Row="4"/>
    
 
     </Grid>
