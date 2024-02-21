@@ -15,7 +15,9 @@ namespace MenuHamburguesa.Views.Pantallas
         public Almacen()
         {
             InitializeComponent();
+            NavigationPage.SetHasBackButton(this, false);
+
         }
-        
+
     }
 }

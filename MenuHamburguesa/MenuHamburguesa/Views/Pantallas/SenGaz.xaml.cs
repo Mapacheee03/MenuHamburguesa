@@ -1,5 +1,4 @@
 ﻿using MenuHamburguesa.ViewModel;
-using MenuHamburguesa.Views.Pantallas;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,18 +8,16 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace MenuHamburguesa.Views
+namespace MenuHamburguesa.Views.Pantallas
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Monitoreo : ContentPage
+    public partial class SenGaz : ContentPage
     {
-        public Monitoreo()
+        public SenGaz()
         {
             InitializeComponent();
             NavigationPage.SetHasBackButton(this, false);
             BindingContext = new VMMonitoreo(Navigation);
-
         }
-
     }
 }

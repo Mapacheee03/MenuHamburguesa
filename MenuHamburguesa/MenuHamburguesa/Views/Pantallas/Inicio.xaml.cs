@@ -17,6 +17,8 @@ namespace MenuHamburguesa
         public Inicio()
         {
             InitializeComponent();
+            NavigationPage.SetHasBackButton(this, false);
+
             UpdateData(); // Actualizar los datos al cargar la página
         }
 
