@@ -9,7 +9,7 @@
             
             <Frame CornerRadius="100">
              <!-- Campos de entrada de usuario y contraseña -->
-            <Entry Placeholder="Nombre de usuario"
+            <Entry Placeholder="Usuario"
                    PlaceholderColor="#6699CC"
                    BackgroundColor="#FFFFFF" 
                    TextColor="#333333" 
@@ -17,7 +17,7 @@
             </Frame>
             <Frame CornerRadius="100">
                 <!-- Color de fondo blanco, texto oscuro -->
-                <Entry Placeholder="Correo electrónico"
+                <Entry Placeholder="Numero de telefono"
                    PlaceholderColor="#6699CC" 
                    BackgroundColor="#FFFFFF"
                    TextColor="#333333"
@@ -26,6 +26,16 @@
             <Frame CornerRadius="100">
             <!-- Color de fondo blanco, texto oscuro -->
             <Entry Placeholder="Contraseña"
+                   PlaceholderColor="#6699CC" 
+                   BackgroundColor="#FFFFFF"
+                   TextColor="#333333"
+                   IsPassword="True" 
+                   Margin="0,0,0,10" />
+            <!-- Color de fondo blanco, texto oscuro -->
+            </Frame>
+            <Frame CornerRadius="100">
+            <!-- Color de fondo blanco, texto oscuro -->
+            <Entry Placeholder="Confirmar Contraseña"
                    PlaceholderColor="#6699CC" 
                    BackgroundColor="#FFFFFF"
                    TextColor="#333333"
